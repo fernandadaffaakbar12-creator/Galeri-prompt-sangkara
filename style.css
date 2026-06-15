@@ -1,0 +1,148 @@
+/* Pengaturan Warna dan Font Dasar */
+:root {
+    --bg-beige: #F9F6F0;       /* Warna background beige terang */
+    --text-brown: #5C4033;     /* Warna font coklat tua */
+    --card-bg: #FFFFFF;        /* Warna background kartu (putih) */
+    --accent-brown: #8B5A2B;   /* Warna coklat aksen */
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--bg-beige);
+    color: var(--text-brown);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    
+    /* Background Doodle Bintang/Sparkle Lucu */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cpath fill='%238b5a2b' fill-opacity='0.1' d='M14 16H9v-2h5V9.876L15 7v6h5v2h-5v5h-2v-4zM64 66h-5v-2h5v-4.124L65 57v6h5v2h-5v5h-2v-4zM24 46h-5v-2h5v-4.124L25 37v6h5v2h-5v5h-2v-4zM54 26h-5v-2h5v-4.124L55 17v6h5v2h-5v5h-2v-4z'/%3E%3C/svg%3E");
+    /* Animasi bergerak pelan ke arah diagonal */
+    animation: gerakBackground 30s linear infinite;
+}
+
+/* Kunci Animasi Background */
+@keyframes gerakBackground {
+    0% { background-position: 0px 0px; }
+    100% { background-position: 80px 80px; }
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: var(--accent-brown);
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/* Desain Tombol Kategori */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    background-color: var(--card-bg);
+    color: var(--text-brown);
+    border: 2px solid var(--accent-brown);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(92, 64, 51, 0.1);
+}
+
+.filter-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(92, 64, 51, 0.15);
+}
+
+/* Desain saat tombol kategori aktif */
+.filter-btn.active {
+    background-color: var(--accent-brown);
+    color: var(--bg-beige);
+}
+
+/* Mengatur tata letak galeri agar rapi */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Desain Kartu Prompt */
+.card {
+    background-color: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(92, 64, 51, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) rotate(1deg);
+    box-shadow: 0 15px 25px rgba(92, 64, 51, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 1.4rem;
+    margin: 0 0 10px 0;
+    color: var(--accent-brown);
+}
+
+.card .prompt-text {
+    font-size: 1rem;
+    background-color: var(--bg-beige);
+    padding: 10px;
+    border-radius: 10px;
+    border-left: 4px solid var(--accent-brown);
+    line-height: 1.5;
+}
+
+/* Desain Tombol Salin */
+.copy-btn {
+    background-color: var(--accent-brown);
+    color: var(--bg-beige);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.copy-btn:hover {
+    background-color: var(--text-brown);
+    transform: scale(1.02);
+}
+
+.copy-btn.copied {
+    background-color: #6B8E23; /* Hijau zaitun */
+    transform: scale(0.98);
+}

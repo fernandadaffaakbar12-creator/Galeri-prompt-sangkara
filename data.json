@@ -1,0 +1,20 @@
+[
+  {
+    "title": "PROMPT 01",
+    "prompt": "Change this photo to a potrait photo ratio 9:16 of beautiful young Indonesian woman in a hair as attached and wears a light plaid oversized shirt layered over a white outfit (shorts and top), accessorized with a small cream handbag on her side. On her feet are white high-top sneakers with visible socks sitting on a bamboo chair at a tropical outdoor café. She is 19 years old, with fair skin, height 159cm, weight 53kg, long shaped face, with very slightly chubby cheeks and pointed chin, sexy body. She pose coquettish and smiling softly while drinking ice tea with a straw with there are some Indonesian foods on the table. The setting features traditional bamboo architecture with a thatched roof, tropical plants, and warm at night with restaurant lights, and there were several visitors who were eating behind him. The atmosphere is relaxed, natural, and tropical with night sky and soft shadows. She wears sunglasses on her head and a watch on her wrist, creating a casual and stylish vacation vibe. 9:16 aspect ratio image.",
+    "image": "images/PROMPT01.png",
+    "category": "wanita"
+  },
+  {
+    "title": "PROMPT 02",
+    "prompt": "Edit subjek pada foto ini agar sesuai dengan petunjuk tanpa mengubah wajah dan bentuk wajah subjek sedikitpun: Foto tubuh penuh seorang wanita Indonesia berusia 20-an dengan kulit putih, tinggi 159cm, berat 52kg, warna rambutnya persis seperti pada gambar terlampir, dengan styling low simple bun. Dia berdiri dengan percaya diri di lingkungan taman tradisional Jawa, gaya formal dengan tangan yang anggun. dia mengenakan pakaian tradisional Jawa yang lengkap: atasan kebaya hitam, kain jarik batik coklat keemasan sebagai sarung, aksesori emas di leher dan pergelangan tangan, rambutnya panjang dan mengalir seperti pada gambar terlampir, dan sepatu selop slip-on hitam (tanpa guncangan). Ekspresinya tenang dengan senyum elegan yang halus. Latar belakang menunjukkan taman kerajaan Jawa klasik (taman khas keraton Jawa) dengan elemen tradisional: rumah Joglo atau pendopo di belakangnya, jalan setapak batu dekoratif, dan beberapa tanaman tropis berdaun yang meningkatkan suasana Jawa.Gaya foto adalah sore alami dengan matahari terbenam yang bersinar di atasnya, tidak ada efek bokeh, semua detail dalam fokus tajam termasuk latar belakang, diambil dengan kamera ponsel cerdas seperti iPhone. Rasio aspek 9:16. Buat itu terlihat realistis dan tidak diedit.",
+    "image": "images/PROMPT02.png",
+    "category": "wanita"
+  },
+  {
+    "title": "PROMPT 03",
+    "prompt": "Buat foto portrait ultra-realistic di pantai saat sunset menggunakan wajah subjek dari foto referensi yang akan dilampirkan. Pertahankan kemiripan wajah secara akurat termasuk bentuk mata, hidung, bibir, struktur wajah, dan warna kulit tanpa perubahan identitas. Subjek berdiri di pantai dengan pose tubuh sedikit membelakangi kamera dan menoleh ke arah kamera (over-the-shoulder pose) dengan ekspresi lembut dan natural. Latar belakang memperlihatkan laut tenang dan langit sunset dengan gradasi warna ungu, pink, dan oranye, menciptakan suasana senja yang romantis dan tenang. Subjek mengenakan crop top hitam berbahan satin model halter-neck backless. short skirt hitam berbahan satin di padukan kain hitam bermotif batik semi transparan yang dililitkan di pinggang menutupi bagian tubuh bawah. Rambut ditata diikat ke belakang dengan gaya messy bun, dengan beberapa helai rambut tipis jatuh natural di sekitar wajah, serta makeup ringan yang terlihat natural.Foto diambil menggunakan kamera iPhone Ultra-Wide (0.5x) dengan komposisi vertikal dan perspektif luas khas ultra-wide. Flash kamera dalam keadaan ON, menyinari wajah dan tubuh subjek sehingga terlihat terang dan tajam, menciptakan kontras dengan latar sunset yang lebih gelap. Hasil akhir harus terlihat seperti foto spontan yang realistis dari iPhone dengan flash, dengan warna natural, sedikit efek HDR khas smartphone, dan tekstur kulit yang tetap realistis, rasio aspek 9:16.",
+    "image": "images/PROMPT03.png",
+    "category": "wanita"
+  }
+]
