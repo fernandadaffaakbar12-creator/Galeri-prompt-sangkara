@@ -146,3 +146,40 @@ header p {
     background-color: #6B8E23; /* Hijau zaitun */
     transform: scale(0.98);
 }
+/* =========================================
+   PENGATURAN KHUSUS LAYAR HP (MOBILE VIEW)
+   ========================================= */
+@media (max-width: 600px) {
+    /* Mengurangi jarak antar kartu agar muat di layar sempit */
+    .gallery {
+        gap: 12px;
+        padding: 0 5px;
+    }
+
+    /* Mengubah lebar kartu menjadi 2 kolom dan mengurangi ketebalan jarak dalamnya */
+    .card {
+        width: calc(50% - 16px);
+        padding: 12px;
+        border-radius: 15px;
+    }
+
+    /* Memendekkan tinggi gambar agar tidak memakan seluruh layar */
+    .card img {
+        height: 140px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Mengecilkan ukuran huruf pada judul prompt */
+    .card h2 {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+
+    /* Menyesuaikan ukuran tombol salin agar pas di dalam kartu yang mengecil */
+    .copy-btn {
+        font-size: 0.8rem;
+        padding: 8px;
+        margin-top: 10px;
+    }
+}
