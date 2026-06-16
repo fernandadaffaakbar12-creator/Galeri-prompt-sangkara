@@ -150,54 +150,54 @@ header p {
    PENGATURAN KHUSUS LAYAR HP (MOBILE VIEW)
    ========================================= */
 @media (max-width: 600px) {
-    /* 1. Merapikan teks judul utama agar tidak kebesaran */
+    /* 1. Mengecilkan teks judul utama agar lebih proporsional */
     header h1 {
-        font-size: 1.6rem; /* Ukuran diperkecil agar pas di layar */
+        font-size: 1.3rem; /* Diperkecil dari 1.6rem menjadi 1.3rem */
         margin-bottom: 5px;
     }
 
     header p {
-        font-size: 0.9rem;
-        margin-bottom: 20px;
+        font-size: 0.8rem; /* Diperkecil sedikit agar seimbang dengan judul */
+        margin-bottom: 15px;
     }
 
-    /* 2. Merapikan tombol kategori (filter) */
+    /* 2. Mengecilkan tombol kategori (filter) secara keseluruhan */
     .filter-btn {
-        font-size: 0.85rem;
-        padding: 8px 12px;
+        font-size: 0.75rem; /* Ukuran huruf diperkecil */
+        padding: 6px 10px;  /* Ruang tombol diperkecil agar tidak memakan tempat */
         border-radius: 20px;
     }
 
     /* 3. Mengubah galeri menjadi sistem Grid agar pasti 2 kolom rapi */
     .gallery {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Perintah ajaib untuk 2 kolom presisi */
+        grid-template-columns: repeat(2, 1fr); 
         gap: 12px;
         padding: 0 10px;
     }
 
     /* 4. Menyesuaikan ukuran kartu agar pas di dalam cetakan Grid */
     .card {
-        width: 100%; /* Memenuhi ruang 1 kolom grid */
-        box-sizing: border-box; /* Agar jarak padding dalam tidak merusak ukuran luar */
+        width: 100%; 
+        box-sizing: border-box; 
         padding: 10px;
         border-radius: 12px;
     }
 
-    /* 5. Memendekkan tinggi gambar agar pas untuk 2 kolom */
+    /* 5. Memendekkan tinggi gambar agar pas untuk 2 baris */
     .card img {
         height: 120px;
         border-radius: 8px;
         margin-bottom: 8px;
     }
 
-    /* 6. Mengecilkan teks judul prompt di dalam kartu */
+    /* 6. Teks judul prompt di dalam kartu */
     .card h2 {
         font-size: 0.9rem;
         margin-bottom: 5px;
     }
 
-    /* 7. Mengecilkan ukuran tombol salin di HP */
+    /* 7. Ukuran tombol salin di HP */
     .copy-btn {
         font-size: 0.75rem;
         padding: 6px;
